@@ -33,7 +33,7 @@ public class Dao<T, I extends Serializable> {
      *
      * @since 0.3
      */
-    private final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("chatbots");
+    private final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("glassfish");
 
     /**
      * Default constructor.
